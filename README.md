@@ -12,7 +12,9 @@ Louise has started a Kickstarter campaign to raise funds to produce a play entit
 
 #### Preparing the data
 
-The first part of the analysis was to visualize campaign outcomes based on launch date. Using the data in Kickstarter_Challenge.xlsx, I added a column entitled “Years” in column U. Using the “Years” function, I populated the column with the year of the campaign’s creation. So, for example, cell U2 contained the code “=YEAR(S2)”, which turned the campaign creation date of 2/12/2014 into the year of 2014. 
+The first part of the analysis was to visualize campaign outcomes based on launch date. Using the data in Kickstarter_Challenge.xlsx, I added a column entitled “Years” in column U. Using the “Years” function, I populated the column with the year of the campaign’s creation. So, for example, cell U2 contained the code “=YEAR(S2)”, which turned the campaign creation date of 2/12/2014 into the year of 2014.
+
+![Date_Created_Conversion.PNG](Resources/Date_Created_Conversion.PNG) 
 
 #### Creating the pivot table
 After this, I created a new pivot table in a new sheet, titled “Theater Outcomes by Launch Date.” I placed “Parent Category” and “Years” in the filter category. In the columns category I placed “Outcomes,” in the rows category I placed “Date Created Conversion,” and in the values category I placed “Count of Outcomes.”
