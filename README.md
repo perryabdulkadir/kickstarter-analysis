@@ -71,6 +71,8 @@ This tells Excel to look into the F column of the Kickstarter sheet, outcomes, a
 
 Taken together, this entire piece of code is telling Excel to count the number of campaigns for plays that had goals of less than $1000 and were successful in reaching their fundraising goals. 
 
+![Outcomes_Based_On_Goals_Code.PNG](Resources/Outcomes_Based_On_Goals_Code.PNG)
+
 I based the formulas for all of the remaining cells on this first function. For example, in cell B3, I used the function
 
 ```
@@ -124,9 +126,9 @@ I applied this to the rest of the column. For Percentage Failed, I used the func
 
 #### Creating the visualization
 
-From here, I simply selected columns F, G, and H in the Outcomes Based on Goals sheet and inserted a line chart and gave it a title.
+From here, I simply selected columns F, G, and H in the Outcomes Based on Goals sheet, inserted a line chart, and gave it a title.
 
-
+![Outcomes_vs_Goals.png](Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
