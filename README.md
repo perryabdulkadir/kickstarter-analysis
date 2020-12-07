@@ -4,7 +4,7 @@
 This is an analysis and visualization of Kickstarter campaigns for plays.
 
 ### Purpose
-Louise has started a Kickstarter campaign to raise funds to produce a play entitled, “Fever.” The play’s Kickstarter campaign has come close to its goal just a short time after going live. Louise has tasked me with analyzing Kickstarter campaigns for plays based on their launch dates and funding goals and produce visualizations.
+Louise has started a Kickstarter campaign to raise funds to produce a play entitled, “Fever.” The play’s Kickstarter campaign has come close to its goal just a short time after going live. Louise has tasked me with analyzing Kickstarter campaigns for plays based on their launch dates and funding goals. I will then produce visualizations based on that analysis using Excel. 
 
 ## Analysis and Challenges
 
