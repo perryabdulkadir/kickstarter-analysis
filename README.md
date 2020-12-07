@@ -27,7 +27,7 @@ After this, I filtered “Parent Category” so only theater campaigns were incl
 
 From there, I clicked the pivot table and added a pivot chart from underneath the Analyze ribbon in Excel. I selected the option for a line with markers. This resulted in the following graph: 
 
-![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](Resources/Theater_Outcomes_vs_Launch.png)
 
 The chart correctly portrayed the data in the pivot table. From there, I simply added a title to the pivot chart to conclude my analysis of outcomes based on launch date. 
 
