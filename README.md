@@ -120,7 +120,7 @@ Next, I used simple formulas to calculate the percentage successful, percentage 
 
 I applied this to the rest of the column. For Percentage Failed, I used the function C2/E2 and applied it to the whole column. For the Percentage Canceled column, I used the function D2/E2. At this point, my table looked like this: 
 
-
+![Countifs_Table_Percentages.PNG](Resources/Countifs_Table_Percentages.PNG)
 
 #### Creating the visualization
 
