@@ -16,6 +16,7 @@ The first part of the analysis was to visualize campaign outcomes based on launc
 
 #### Creating the pivot table
 After this, I created a new pivot table in a new sheet, titled “Theater Outcomes by Launch Date.” I placed “Parent Category” and “Years” in the filter category. In the columns category I placed “Outcomes,” in the rows category I placed “Date Created Conversion,” and in the values category I placed “Count of Outcomes.”
+![PivotTable_Fields](Resources/PivotTable_Fields.PNG)
 
 After this, I filtered “Parent Category” so only theater campaigns were included in the pivot table below. Because I was not interested in campaigns where the “Outcome” column listed “live” or null, I filtered the outcomes in the pivot table to only display successful, failed, or canceled campaigns. From there, I sorted column labels Z->A so “successful”, “failed,” and “canceled” displayed in the proper order in the pivot table. This left me with a pivot table that looked like this: 
 
