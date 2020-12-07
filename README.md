@@ -107,7 +107,7 @@ Because column C is also counting only those campaigns in the play subcategory a
 
 Finally, I repeated the same process for column D, copying and pasting the function from the cell to its left and changing “failed” to “canceled.” This left me with a table that looked like this: 
 
-![Countifs_Table.PNG](Countifs_Table.PNG)
+![Countifs_Table.PNG](Resources/Countifs_Table.PNG)
 
 #### Additional calculations
 In the next column, “Total Projects,” I simply used the SUM function to add the successful, failed, and canceled campaigns for each goal range. This left me with all play campaigns (excluding those with the category “Live” or null) for each range of goal amount. 
