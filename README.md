@@ -114,7 +114,7 @@ Finally, I repeated the same process for column D, copying and pasting the funct
 #### Additional calculations
 In the next column, “Total Projects,” I simply used the SUM function to add the successful, failed, and canceled campaigns for each goal range. This left me with all play campaigns (excluding those with the category “Live” or null) for each range of goal amount. 
 
-Next, I used simple formulas to calculate the percentage successful, percentage of failed, and percentage canceled for each goal range. For column F, percentage successful, I used the function
+Next, I used simple formulas to calculate the percentage successful, percentage of failed, and percentage canceled for each goal range. For column F, Percentage Successful, I used the function
 
 ```
 =B2/E2
@@ -134,7 +134,7 @@ From here, I simply selected columns F, G, and H in the Outcomes Based on Goals 
 
 #### Writing functions
 
-Although I have used Excel functions before, this analysis included some of the longest functions I have used. In the Outcomes Based on Goals sheet, I ran into some issues with syntax at the beginning. My first COUNTIFS function kept returning errors – when I watched the video under “hint” in the module, I realized I had forgotten to include $ in the range. For example, I changed Kickstarter!D:D to Kickstarter!$D:$D. As I built my functions and occasionally got confused where things were, I learned that I could hover over sections of the function and Excel would tell me that section’s role in the function – for example, criteria_range1.
+Although I have used Excel functions before, this analysis included some of the longest functions I have used. In the Outcomes Based on Goals sheet, I ran into some issues with syntax at the beginning. My first COUNTIFS function kept returning errors – I realized I had forgotten to include $ in the range. For example, I changed Kickstarter!D:D to Kickstarter!$D:$D. As I built my functions and occasionally got confused where things were, I learned that I could hover over sections of the function and Excel would tell me that section’s role in the function – for example, criteria_range1.
 
 #### Checking results that seemed incorrect
 
@@ -147,26 +147,26 @@ However, I wanted to do further analysis to ensure there were not any errors in 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+**What are two conclusions you can draw about the Outcomes based on Launch Date?**
 
 One can look at the chart and conclude that there does seem to be a trend in terms of successful campaigns. While the number of failed and canceled campaigns remains relatively flat throughout the year, the number of successful theater campaigns tends to peak in May and decline steadily until September. Campaigns launched in December have fewer successes than those launched in any other month. 
 
 The relative flatness of failed/canceled campaigns and the strong trend in successful campaign allows for a second conclusion: the percentage of successful theater campaigns, as a part of total theater campaigns, is highest in May, decreases steadily through the summer until September, and reaches a nadir in December. Based on this, someone considering launching a theater campaign might reconsider their plans to launch in December or might especially consider launching a campaign in May.  
 
 
-- What can you conclude about the Outcomes based on Goals?
+**What can you conclude about the Outcomes based on Goals?**
 
 Play campaigns that have smaller goals (>$1000 or $1000-$4999) tend to be successful (75.8% and 72.7% successful, respectively. The success rate declines to around 50% for campaigns with goals in the range of $5000-$9999, $10000-$14999, $15000-$19999, and $20000-$24999. The success rate declines markedly for the next few ranges: $25000-$29999 has a success rate of 20.0% and $30000-$34999 has a success rate of 27.3%. The success rate climbs for the next two brackets – 66.7% of campaigns with goals in the range of $35000-$39999 and $40000-$44999. The success rate craters to 0% for the range of $45000-$49999 and 12.5% for $50000+. I will discuss the limitations of the data more in depth below: for now, however, it suffices to say that the number of observations is high for the lower goal ranges and very small for the highest goal ranges. Because of this scarcity of data, I am only comfortable drawing conclusions about the lower ranges of goals – generally speaking, chance of success is inversely proportional to goal amount. That is, those with more realistic goals are more likely to achieve them. This makes intuitive sense – it is easier to raise smaller amounts of money than larger amounts.  
 
 
-- What are some limitations of this dataset?
+**What are some limitations of this dataset?**
 
 There are some limitations to this dataset. As mentioned above, the number of observations is limited for campaigns with larger goals. Out of 1047 total play campaigns that succeeded, failed, or were canceled, there are only 42 that had goals of $25000 or larger. This means that 95.9% of all campaigns had goals lower than $25000. The number of campaigns is even more concentrated at the bottom of the goal ranges – 84.9% of campaigns had goals below $10000. This means that we can draw fewer inferences about higher campaign levels because there is a lack of data. For example, the goal range $45000-49999 has just 1 campaign – we cannot possibly draw strong conclusions with an n of 1. Looking at the percentage successful without the context of the sample size could lead to incorrect conclusions. Looking at just the percentage of successful campaigns, it would be foolish not to start a campaign with a goal of $45000-$49999 - after all, the success rate is 100%! Of course, when you learn that this 100% success rate is based on 1 out 1 campaign succeeding, it should temper your reliance on that data. 
 
 Another limiting factor, this time for predicting theater outcomes by launch date, is that past performance is not necessarily indicative of future performance. It may be true that historically, May tends to be a good month for theater campaigns. However, the world is unpredictable – theater Kickstarter campaigns launched in May 2020 were almost certainly less successful than historical averages because the novel Coronavirus has shut down all large public gatherings in many parts of the world. Someone blindly relying on historical data without considering context might have been sorely disappointed if they tried to launch a theater campaign in May of this year.  
 
 
-- What are some other possible tables and/or graphs that we could create?
+**What are some other possible tables and/or graphs that we could create?**
 
 It could be illuminating to explore success rate of play Kickstarter campaigns broken down by size of average donation. There would be columns for “Number Successful,” “Number Failed,” and “Number Canceled.” The rows would be bins of average donation size: for example, less than $5, $5-$20, $21-$50 … more than $1,000. This could provide Louise insight into how to market her campaign. For example, it might show that campaigns succeed more often when the average donations are very large. If that is the case, Louise would be better served spending her time courting wealthy philanthropists and patrons of the arts. On the other hand, if the data reveal that campaigns with small average donations succeed more frequently, she might consider a grass roots fundraising campaign. 
 
