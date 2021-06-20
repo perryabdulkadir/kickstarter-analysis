@@ -40,7 +40,7 @@ To begin, I created a new sheet and labeled it “Outcome Based on Goals.” I c
 
 #### Using the COUNTIFS function to populate the table
 
-For this step, I started by writing the function for cell B2. This functions is:
+For this step, I started by writing the function for cell B2. This function is:
 
 ```
  =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
@@ -73,7 +73,7 @@ Taken together, this entire piece of code is telling Excel to count the number o
 
 ![Outcomes_Based_On_Goals_Code.PNG](Resources/Outcomes_Based_On_Goals_Code.PNG)
 
-I based the formulas for all of the remaining cells on this first function. For example, in cell B3, I used the function
+I based the formulas for all the remaining cells on this first function. For example, in cell B3, I used the function
 
 ```
 =COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful", Kickstarter!$D:$D, "<=4999")
