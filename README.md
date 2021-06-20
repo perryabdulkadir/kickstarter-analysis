@@ -170,3 +170,11 @@ Another limiting factor, this time for predicting theater outcomes by launch dat
 
 It could be illuminating to explore success rate of play Kickstarter campaigns broken down by size of average donation. There would be columns for “Number Successful,” “Number Failed,” and “Number Canceled.” The rows would be bins of average donation size: for example, less than $5, $5-$20, $21-$50 … more than $1,000. This could provide Louise insight into how to market her campaign. For example, it might show that campaigns succeed more often when the average donations are very large. If that is the case, Louise would be better served spending her time courting wealthy philanthropists and patrons of the arts. On the other hand, if the data reveal that campaigns with small average donations succeed more frequently, she might consider a grass roots fundraising campaign. 
 
+
+-----
+
+### **Contact:**
+
+**Email:** perry.abdulkadir@alumni.harvard.edu
+
+**Linkedin:** https://www.linkedin.com/in/perry-abdulkadir-6a255199/
